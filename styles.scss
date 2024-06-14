@@ -1,0 +1,45 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap');
+
+
+// bootstrap Icons (https://icons.getbootstrap.com/)
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+// Fonts
+// unfortunately b/c I wanna use a monospace font and most of the text won't be monospace formatting... I need to use the custom {} notation 
+$font-family: 'Space Mono', monospace; 
+
+
+
+// Base document colors
+$body-bg: #00283B; // main background color
+$body-color: #ece3cc; // this is font color
+$link-color: #95c9e2; // link color
+$navbar-bg: #00283B; // nav bar background color
+
+
+
+/*-- scss:rules --*/
+
+
+.headers {
+    font-family: 'Space Mono', monospace;
+    //color: #0C6028;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 700;
+}
+.subheaders {
+    font-family: 'Space Mono', monospace;
+    //color: #0C6028;
+    font-size: x-large;
+    //font-style: italic;
+    font-weight: 700;
+}
+.bodyfont {
+    font-family: 'Space Mono', monospace;
+    //color: #0C6028;
+    font-size: large;
+    //font-style: italic;
+    font-weight: 400;
+}

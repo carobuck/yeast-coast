@@ -11,6 +11,7 @@ website:
         text: "[FAQ]{.bodyfont}"
       - href: recipes.qmd
         text: "[Recipes & Inspiration]{.bodyfont}"
+  favicon: imgs/bread.png
 
 execute:
   freeze: auto 

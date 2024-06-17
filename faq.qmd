@@ -1,0 +1,9 @@
+---
+title: "[FAQ]{.headers}"
+---
+::: {.div .bodyfont}
+You've got questions. We've got answers.^[Well, maybe. We aren't omniscient after all. That's what the 8-ball on top of the fridge is for. (Kidding)]
+
+Got more questions? Shoot us a note at [yeastcoastco@gmail.com](mailto:yeastcoastco@gmail.com)
+
+:::

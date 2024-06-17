@@ -2,17 +2,22 @@ project:
   type: website
 
 website:
-  title: "yeast-coast"
+  title: "[Yeast Coast]{.headers}"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - href: order.qmd
+        text: "[Order]{.bodyfont}"
+      - href: faq.qmd
+        text: "[FAQ]{.bodyfont}"
+      - href: recipes.qmd
+        text: "[Recipes & Inspiration]{.bodyfont}"
 
+execute:
+  freeze: auto 
 format:
   html:
-    theme: cosmo
-    scss: styles.scss
+    theme:
+      - styles.scss
     toc: true
 
 

@@ -1,7 +1,13 @@
 ---
-title: "yeast-coast"
+title: "[Yeast Coast]{.headers}"
 ---
 
-This is a Quarto website.
+::: {.div .bodyfont}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+About the baker
+
+Place an Order
+
+Learn more
+
+:::

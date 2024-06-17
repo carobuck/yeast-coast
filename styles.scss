@@ -1,5 +1,6 @@
 /*-- scss:defaults --*/
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Playwrite+CO:wght@100..400&family=Playwrite+PL:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 // bootstrap Icons (https://icons.getbootstrap.com/)
@@ -7,39 +8,62 @@
 
 // Fonts
 // unfortunately b/c I wanna use a monospace font and most of the text won't be monospace formatting... I need to use the custom {} notation 
-$font-family: 'Space Mono', monospace; 
+$font-family: 'Manrope'; 
 
 
 
 // Base document colors
-$body-bg: #00283B; // main background color
-$body-color: #ece3cc; // this is font color
-$link-color: #95c9e2; // link color
-$navbar-bg: #00283B; // nav bar background color
+$body-bg: #fae3c8; // main background color
+$body-color: #A15960; // this is font color
+$link-color: #f0951e; // link color
+$navbar-bg: #D4685B; // nav bar background color
 
 
 
 /*-- scss:rules --*/
 
 
+
+
+// TODO: FILL THESE IN LATER ONCE DECIDE ON A FONT
 .headers {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Playwrite PL';
     //color: #0C6028;
-    font-size: xx-large;
-    font-style: italic;
-    font-weight: 700;
+    //font-size: xx-large;
+    //font-weight: 700;
 }
 .subheaders {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Playwrite PL';
     //color: #0C6028;
     font-size: x-large;
     //font-style: italic;
     font-weight: 700;
 }
 .bodyfont {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Manrope';
     //color: #0C6028;
     font-size: large;
     //font-style: italic;
     font-weight: 400;
+}
+
+
+// Use for body font!
+.manrope {
+    font-family: "Manrope";
+}
+// Use for headers!
+.playwritePL { 
+    font-family: "Playwrite PL";
+}
+
+// other fonts don't like as much
+.roboto {
+    font-family: "Roboto" Condensed;
+}
+.inter {
+    font-family: "Inter";
+}
+.playwriteCO {
+    font-family: "Playwrite CO";
 }
